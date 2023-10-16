@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+}

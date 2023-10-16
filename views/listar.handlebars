@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/listar.css">
+<table border="1">
+    <thead>
+        <th>Código</th>
+        <th>E-mail</th>
+        <th>Senha</th>
+        <th>Idade</th>
+    </thead>
+    {{#each dados}}
+    <tbody>
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.senha}}</td>
+            <td>{{this.idade}}</td>
+        </tr>
+    </tbody>
+    {{/each}}
+</table>
